@@ -10,7 +10,7 @@ git pull
 scp -rp skaag@$DEV1:~/*.sh ~/Desktop/Local_repository/DEV/dev-web-us-east/nginx
 scp -rp skaag@$DEV1:/etc/nginx/* ~/Desktop/Local_repository/DEV/dev-web-us-east/nginx
 git add *
-git commit -m "UPDATE dev-web file 'date'"
+git commit -m "UPDATE dev-web file `date`"
 git push
 
 #Update repo from Fronts
