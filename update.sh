@@ -36,7 +36,7 @@ git push
 
 cd ~/Desktop/Local_repository/DEV/dev-db-us-east
 git pull
-scp -rp adlithium@$DEV4:/rtbkit-scripts ~/Desktop/Local_repository/DEV/dev-db-us-east
+scp -rp adlithium@$DEV4:/rtbkit-scripts/* ~/Desktop/Local_repository/DEV/rtbkit-scripts
 scp -rp adlithium@$DEV4:/etc/nginx/* ~/Desktop/Local_repository/DEV/dev-db-us-east/nginx
 git add *
 git commit -a -m "UPDATE dev-db-us-east file"
