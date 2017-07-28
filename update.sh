@@ -21,9 +21,9 @@ DEV3='dev-front-us-east'
 #git commit -a -m "UPDATE Front file"
 #git push
 
-cd ~/Desktop/Local_repository/DEV/dev-front-eu-west
+cd ~/Desktop/Local_repository/DEV/$DEV3
 git pull
-scp -rp rtb@$DEV3:~/*.sh ~/Desktop/Local_repository/DEV/dev-front-us-west
+scp -rp rtb@$DEV3:~/*.sh ~/Desktop/Local_repository/DEV/$DEV3
 git add *
 git commit -a -m "UPDATE Front file"
 git push
